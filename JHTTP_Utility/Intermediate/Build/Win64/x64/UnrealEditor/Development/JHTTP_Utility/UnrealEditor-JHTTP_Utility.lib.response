@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-JHTTP_Utility.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"J:\Projects\The_Vault\Intermediate\Build\Win64\x64\The_VaultEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.obj"
+"J:\Projects\The_Vault\Plugins\JHTTP_Utility\Intermediate\Build\Win64\x64\UnrealEditor\Development\JHTTP_Utility\Module.JHTTP_Utility.cpp.obj"
+"J:\Projects\The_Vault\Plugins\JHTTP_Utility\Intermediate\Build\Win64\x64\UnrealEditor\Development\JHTTP_Utility\Default.rc2.res"
+/OUT:"J:\Projects\The_Vault\Plugins\JHTTP_Utility\Intermediate\Build\Win64\x64\UnrealEditor\Development\JHTTP_Utility\UnrealEditor-JHTTP_Utility.lib"

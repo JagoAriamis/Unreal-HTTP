@@ -1,0 +1,28 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "j:\\projects\\the_vault\\plugins\\jhttp_utility\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\jhttp_utility\\module.jhttp_utility.cpp",
+        "ProvidedModule": "",
+        "PCH": "j:\\projects\\the_vault\\intermediate\\build\\win64\\x64\\the_vaulteditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
+        "Includes": [
+            "j:\\projects\\the_vault\\plugins\\jhttp_utility\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\jhttp_utility\\definitions.jhttp_utility.h",
+            "j:\\projects\\the_vault\\plugins\\jhttp_utility\\intermediate\\build\\win64\\unrealeditor\\inc\\jhttp_utility\\uht\\jhttp_utility.init.gen.cpp",
+            "j:\\projects\\the_vault\\plugins\\jhttp_utility\\intermediate\\build\\win64\\unrealeditor\\inc\\jhttp_utility\\uht\\jhttp_utilitybplibrary.gen.cpp",
+            "j:\\projects\\the_vault\\plugins\\jhttp_utility\\source\\jhttp_utility\\public\\jhttp_utilitybplibrary.h",
+            "j:\\unreal engine\\ue_5.2\\engine\\source\\runtime\\online\\http\\public\\http.h",
+            "j:\\unreal engine\\ue_5.2\\engine\\source\\runtime\\online\\http\\public\\httpmodule.h",
+            "j:\\unreal engine\\ue_5.2\\engine\\source\\runtime\\online\\http\\public\\interfaces\\ihttprequest.h",
+            "j:\\unreal engine\\ue_5.2\\engine\\source\\runtime\\online\\http\\public\\interfaces\\ihttpbase.h",
+            "j:\\unreal engine\\ue_5.2\\engine\\source\\runtime\\online\\http\\public\\interfaces\\ihttpresponse.h",
+            "j:\\unreal engine\\ue_5.2\\engine\\source\\runtime\\online\\http\\public\\platformhttp.h",
+            "j:\\unreal engine\\ue_5.2\\engine\\source\\runtime\\online\\http\\public\\windows\\windowsplatformhttp.h",
+            "j:\\unreal engine\\ue_5.2\\engine\\source\\runtime\\online\\http\\public\\genericplatform\\genericplatformhttp.h",
+            "j:\\projects\\the_vault\\plugins\\jhttp_utility\\intermediate\\build\\win64\\unrealeditor\\inc\\jhttp_utility\\uht\\jhttp_utilitybplibrary.generated.h",
+            "j:\\projects\\the_vault\\plugins\\jhttp_utility\\source\\jhttp_utility\\private\\jhttp_utility.cpp",
+            "j:\\projects\\the_vault\\plugins\\jhttp_utility\\source\\jhttp_utility\\public\\jhttp_utility.h",
+            "j:\\projects\\the_vault\\plugins\\jhttp_utility\\source\\jhttp_utility\\private\\jhttp_utilitybplibrary.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
