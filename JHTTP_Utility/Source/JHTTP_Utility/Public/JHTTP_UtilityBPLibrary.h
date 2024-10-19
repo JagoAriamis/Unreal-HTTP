@@ -1,7 +1,7 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// Copyright 2024 James Law-Foon. All rights reserved
 #pragma once
 
-#include "Kismet/BlueprintFunctionLibrary.h"
+#include "Kismet/BlueprintAsyncActionBase.h"
 #include "Http.h"
 #include "HttpModule.h"
 #include "Interfaces/IHttpRequest.h"
@@ -46,11 +46,10 @@ struct FMapQuery
 	TMap<FString, FString> Query;
 };
 
-// Callback
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FHttpResponseDelegate, const int32, Code, const FString&, Data);
 
 UCLASS()
-class UJHTTP_UtilityBPLibrary : public UBlueprintFunctionLibrary
+class UJHTTP_UtilityBPLibrary : public UBlueprintAsyncActionBase
 {
 	GENERATED_UCLASS_BODY()
 

@@ -1,4 +1,4 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// Copyright 2024 James Law-Foon. All rights reserved
 
 #include "JHTTP_Utility.h"
 

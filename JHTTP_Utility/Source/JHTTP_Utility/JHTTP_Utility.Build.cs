@@ -1,4 +1,4 @@
-// Some copyright should be here...
+// Copyright 2024 James Law-Foon. All rights reserved
 
 using UnrealBuildTool;
 

@@ -1,11 +1,5 @@
 {
 	"RemapUnityFiles": 
 	{
-		"Module.JHTTP_Utility.cpp.obj": [
-			"JHTTP_Utility.init.gen.cpp.obj",
-			"JHTTP_UtilityBPLibrary.gen.cpp.obj",
-			"JHTTP_Utility.cpp.obj",
-			"JHTTP_UtilityBPLibrary.cpp.obj"
-		]
 	}
 }

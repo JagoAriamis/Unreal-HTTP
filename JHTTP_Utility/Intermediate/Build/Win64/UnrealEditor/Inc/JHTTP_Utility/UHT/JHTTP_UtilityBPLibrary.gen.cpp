@@ -9,7 +9,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeJHTTP_UtilityBPLibrary() {}
 // Cross Module References
-	ENGINE_API UClass* Z_Construct_UClass_UBlueprintFunctionLibrary();
+	ENGINE_API UClass* Z_Construct_UClass_UBlueprintAsyncActionBase();
 	JHTTP_UTILITY_API UClass* Z_Construct_UClass_UJHTTP_UtilityBPLibrary();
 	JHTTP_UTILITY_API UClass* Z_Construct_UClass_UJHTTP_UtilityBPLibrary_NoRegister();
 	JHTTP_UTILITY_API UEnum* Z_Construct_UEnum_JHTTP_Utility_JHTTPContentType();
@@ -336,9 +336,7 @@ template<> JHTTP_UTILITY_API UScriptStruct* StaticStruct<FMapQuery>()
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_JHTTP_Utility_HttpResponseDelegate__DelegateSignature_Statics::Function_MetaDataParams[] = {
-		{ "Comment", "// Callback\n" },
 		{ "ModuleRelativePath", "Public/JHTTP_UtilityBPLibrary.h" },
-		{ "ToolTip", "Callback" },
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_JHTTP_Utility_HttpResponseDelegate__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_JHTTP_Utility, nullptr, "HttpResponseDelegate__DelegateSignature", nullptr, nullptr, sizeof(Z_Construct_UDelegateFunction_JHTTP_Utility_HttpResponseDelegate__DelegateSignature_Statics::_Script_JHTTP_Utility_eventHttpResponseDelegate_Parms), Z_Construct_UDelegateFunction_JHTTP_Utility_HttpResponseDelegate__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_JHTTP_Utility_HttpResponseDelegate__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_JHTTP_Utility_HttpResponseDelegate__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_JHTTP_Utility_HttpResponseDelegate__DelegateSignature_Statics::Function_MetaDataParams)) };
@@ -843,7 +841,7 @@ void UJHTTP_UtilityBPLibrary::FHttpResponseCallback_DelegateWrapper(const FScrip
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
 	UObject* (*const Z_Construct_UClass_UJHTTP_UtilityBPLibrary_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_UBlueprintFunctionLibrary,
+		(UObject* (*)())Z_Construct_UClass_UBlueprintAsyncActionBase,
 		(UObject* (*)())Z_Construct_UPackage__Script_JHTTP_Utility,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UJHTTP_UtilityBPLibrary_Statics::FuncInfo[] = {
@@ -864,13 +862,13 @@ void UJHTTP_UtilityBPLibrary::FHttpResponseCallback_DelegateWrapper(const FScrip
 		{ "ModuleRelativePath", "Public/JHTTP_UtilityBPLibrary.h" },
 	};
 #endif
-	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UJHTTP_UtilityBPLibrary_Statics::NewProp_Success = { "Success", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UJHTTP_UtilityBPLibrary, Success), Z_Construct_UDelegateFunction_JHTTP_Utility_HttpResponseDelegate__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UJHTTP_UtilityBPLibrary_Statics::NewProp_Success_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UJHTTP_UtilityBPLibrary_Statics::NewProp_Success_MetaData)) }; // 257640355
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UJHTTP_UtilityBPLibrary_Statics::NewProp_Success = { "Success", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UJHTTP_UtilityBPLibrary, Success), Z_Construct_UDelegateFunction_JHTTP_Utility_HttpResponseDelegate__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UJHTTP_UtilityBPLibrary_Statics::NewProp_Success_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UJHTTP_UtilityBPLibrary_Statics::NewProp_Success_MetaData)) }; // 1765528852
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UJHTTP_UtilityBPLibrary_Statics::NewProp_Failure_MetaData[] = {
 		{ "ModuleRelativePath", "Public/JHTTP_UtilityBPLibrary.h" },
 	};
 #endif
-	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UJHTTP_UtilityBPLibrary_Statics::NewProp_Failure = { "Failure", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UJHTTP_UtilityBPLibrary, Failure), Z_Construct_UDelegateFunction_JHTTP_Utility_HttpResponseDelegate__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UJHTTP_UtilityBPLibrary_Statics::NewProp_Failure_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UJHTTP_UtilityBPLibrary_Statics::NewProp_Failure_MetaData)) }; // 257640355
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UJHTTP_UtilityBPLibrary_Statics::NewProp_Failure = { "Failure", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UJHTTP_UtilityBPLibrary, Failure), Z_Construct_UDelegateFunction_JHTTP_Utility_HttpResponseDelegate__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UJHTTP_UtilityBPLibrary_Statics::NewProp_Failure_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UJHTTP_UtilityBPLibrary_Statics::NewProp_Failure_MetaData)) }; // 1765528852
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UJHTTP_UtilityBPLibrary_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UJHTTP_UtilityBPLibrary_Statics::NewProp_Success,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UJHTTP_UtilityBPLibrary_Statics::NewProp_Failure,
@@ -922,9 +920,9 @@ void UJHTTP_UtilityBPLibrary::FHttpResponseCallback_DelegateWrapper(const FScrip
 		{ FMapQuery::StaticStruct, Z_Construct_UScriptStruct_FMapQuery_Statics::NewStructOps, TEXT("MapQuery"), &Z_Registration_Info_UScriptStruct_MapQuery, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FMapQuery), 1151782150U) },
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projects_The_Vault_Plugins_JHTTP_Utility_Source_JHTTP_Utility_Public_JHTTP_UtilityBPLibrary_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UJHTTP_UtilityBPLibrary, UJHTTP_UtilityBPLibrary::StaticClass, TEXT("UJHTTP_UtilityBPLibrary"), &Z_Registration_Info_UClass_UJHTTP_UtilityBPLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UJHTTP_UtilityBPLibrary), 2120357255U) },
+		{ Z_Construct_UClass_UJHTTP_UtilityBPLibrary, UJHTTP_UtilityBPLibrary::StaticClass, TEXT("UJHTTP_UtilityBPLibrary"), &Z_Registration_Info_UClass_UJHTTP_UtilityBPLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UJHTTP_UtilityBPLibrary), 1830051342U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projects_The_Vault_Plugins_JHTTP_Utility_Source_JHTTP_Utility_Public_JHTTP_UtilityBPLibrary_h_3974596683(TEXT("/Script/JHTTP_Utility"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projects_The_Vault_Plugins_JHTTP_Utility_Source_JHTTP_Utility_Public_JHTTP_UtilityBPLibrary_h_365635976(TEXT("/Script/JHTTP_Utility"),
 		Z_CompiledInDeferFile_FID_Projects_The_Vault_Plugins_JHTTP_Utility_Source_JHTTP_Utility_Public_JHTTP_UtilityBPLibrary_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Projects_The_Vault_Plugins_JHTTP_Utility_Source_JHTTP_Utility_Public_JHTTP_UtilityBPLibrary_h_Statics::ClassInfo),
 		Z_CompiledInDeferFile_FID_Projects_The_Vault_Plugins_JHTTP_Utility_Source_JHTTP_Utility_Public_JHTTP_UtilityBPLibrary_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Projects_The_Vault_Plugins_JHTTP_Utility_Source_JHTTP_Utility_Public_JHTTP_UtilityBPLibrary_h_Statics::ScriptStructInfo),
 		Z_CompiledInDeferFile_FID_Projects_The_Vault_Plugins_JHTTP_Utility_Source_JHTTP_Utility_Public_JHTTP_UtilityBPLibrary_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Projects_The_Vault_Plugins_JHTTP_Utility_Source_JHTTP_Utility_Public_JHTTP_UtilityBPLibrary_h_Statics::EnumInfo));
